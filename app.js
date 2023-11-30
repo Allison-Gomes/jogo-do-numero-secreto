@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = []; //lista vazia
-let numeroLimite = 10; //quantidade máxima de elementos a ser sorteados
+let numeroLimite = 100; //quantidade máxima de elementos a ser sorteados
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -69,9 +69,6 @@ function reiniciarJogo() {
     exibirMensagemInicial();
     document.getElementById('reiniciar').setAttribute('disabled', true);
 }
-
-
-
 
 
 
