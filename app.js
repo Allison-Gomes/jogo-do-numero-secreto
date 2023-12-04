@@ -16,7 +16,7 @@ function exibirNaTela(tag, texto) {
 
 function exibirMensagemInicial() {
     exibirNaTela ('h1', 'Jogo do número secreto');
-    exibirNaTela ('p', 'Escolha um número entre 1 e 10');
+    exibirNaTela ('p', 'Escolha um número entre 1 e 50');
 }
 exibirMensagemInicial();
 
@@ -69,4 +69,5 @@ function reiniciarJogo() {
     exibirMensagemInicial();
     document.getElementById('reiniciar').setAttribute('disabled', true);
 }
+
 
